@@ -22,6 +22,11 @@ function squared(a, b) {
     return a ** b;
 }
 
+//Commented out function
+//function add_then_sub(a, b) {
+//    return a + b - a + b;
+//}
+
 function bad_code(a, b) {
     const c = 99;
     if (true) {
