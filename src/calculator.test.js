@@ -2,6 +2,8 @@ const calculator = require('./calculator');
 
 const x = 3;
 const y = 2;
+// Unused const
+const z = 23;
 
 test (`Add numners using add method`, () => {
     expect(calculator.add(x,y)).toBe(5)

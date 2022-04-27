@@ -22,9 +22,17 @@ function squared(a, b) {
     return a ** b;
 }
 
+function bad_code(a, b) {
+    const c = 99;
+    if (true) {
+        return a + b;
+    }
+    return a - b;
+}
+
 module.exports.add = add;
 module.exports.subtract = subtract;
 module.exports.multiply = multiply;
 module.exports.divide = divide;
 module.exports.modulo = modulo;
-module.exports.squared = squared;
+module.exports.bad_code = bad_code;
