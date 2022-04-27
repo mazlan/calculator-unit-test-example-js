@@ -18,8 +18,13 @@ function modulo(a, b) {
     return a % b;
 }
 
+function squared(a, b) {
+    return a ** b;
+}
+
 module.exports.add = add;
 module.exports.subtract = subtract;
 module.exports.multiply = multiply;
 module.exports.divide = divide;
 module.exports.modulo = modulo;
+module.exports.squared = squared;
