@@ -40,4 +40,5 @@ module.exports.subtract = subtract;
 module.exports.multiply = multiply;
 module.exports.divide = divide;
 module.exports.modulo = modulo;
+module.exports.squared = squared;
 module.exports.bad_code = bad_code;
